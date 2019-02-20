@@ -22,7 +22,7 @@
 Texter is a plain text editor for iOS. It is a fork of <a href="https://github.com/louisdh/textor">Textor</a>, a previous app which has now been withdrawn from the AppStore. Texter is not yet completely fixed for being released to the AppStore (there are still a lot of links etc to the old Textor app), but as soon as that is fixed I'll publish it.
 
 ## Running
-Open `Textor.xcodeproj`, change the bundle identifier to an identifier linked to your Apple developer account in order to run. Build using the `Textor` scheme. 
+Open `Texter.xcodeproj`, change the bundle identifier to an identifier linked to your Apple developer account in order to run. Build using the `Texter` scheme. 
 
 ## License
 
