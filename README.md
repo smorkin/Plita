@@ -1,8 +1,8 @@
 <p align="center">
-<img src="readme-resources/hero.png" alt="Texter for iOS">
+<img src="readme-resources/hero.png" alt="Plita for iOS">
 </p>
 
-<h1 align="center">Texter</h1>
+<h1 align="center">Plita</h1>
 
 <p align="center">
 <!--<a href="https://itunes.apple.com/app/textor/id1330406995?mt=8&at=1010lII4"><img src="readme-resources/app_store_badge.svg" alt="Download on the App Store"/></a>
@@ -19,10 +19,10 @@
 </p>
 
 ## About
-Texter is a plain text editor for iOS. It is a fork of <a href="https://github.com/louisdh/textor">Textor</a>, a previous app which has now been withdrawn from the AppStore. Texter is not yet completely fixed for being released to the AppStore (there are still a lot of links etc to the old Textor app), but as soon as that is fixed I'll publish it.
+Plita is a plain text editor for iOS. It is a fork of <a href="https://github.com/louisdh/textor">Textor</a>, a previous app which has now been withdrawn from the AppStore. Plita is not yet completely fixed for being released to the AppStore (there are still a lot of links etc to the old Textor app, icons to be changed, and more), but as soon as that is fixed I'll publish it.
 
 ## Running
-Open `Texter.xcodeproj`, change the bundle identifier to an identifier linked to your Apple developer account in order to run. Build using the `Texter` scheme. 
+Open `Plita.xcodeproj`, change the bundle identifier to an identifier linked to your Apple developer account in order to run. Build using the `Plita` scheme. 
 
 ## License
 
