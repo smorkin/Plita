@@ -4,6 +4,7 @@
 //
 //  Created by Louis D'hauwe on 31/12/2017.
 //  Copyright © 2017 Silver Fox. All rights reserved.
+//  Copyright © 2019 Simon Wigzell. All rights reserved.
 //
 
 import Foundation
@@ -46,7 +47,7 @@ class DocumentManager {
 
 	}
 
-	private let ICLOUD_IDENTIFIER = "iCloud.com.silverfox.plaintextedit"
+	private let ICLOUD_IDENTIFIER = "iCloud.se.ozymandias.plaintexteditor"
 
 	private var localDocumentsURL: URL {
 		return fileManager.urls(for: .documentDirectory, in: .userDomainMask)[0]

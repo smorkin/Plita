@@ -4,6 +4,7 @@
 //
 //  Created by Louis D'hauwe on 13/03/2018.
 //  Copyright © 2018 Silver Fox. All rights reserved.
+//  Copyright © 2019 Simon Wigzell. All rights reserved.
 //
 
 import Foundation
@@ -58,9 +59,4 @@ class UserDefaultsController {
 			userDefaults.set(newValue, forKey: "font")
 		}
 	}
-
-	var isFastlane: Bool {
-		return userDefaults.bool(forKey: "FASTLANE_SNAPSHOT") == true
-	}
-
 }

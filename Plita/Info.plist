@@ -43,7 +43,7 @@
 	<true/>
 	<key>NSUbiquitousContainers</key>
 	<dict>
-		<key>iCloud.com.silverfox.plaintextedit</key>
+		<key>iCloud.se.ozymandias.plaintexteditor</key>
 		<dict>
 			<key>NSUbiquitousContainerIsDocumentScopePublic</key>
 			<true/>

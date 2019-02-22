@@ -4,6 +4,7 @@
 //
 //  Created by Louis D'hauwe on 31/12/2017.
 //  Copyright © 2017 Silver Fox. All rights reserved.
+//  Copyright © 2019 Simon Wigzell. All rights reserved.
 //
 
 import UIKit

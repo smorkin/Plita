@@ -4,6 +4,7 @@
 //
 //  Created by Louis D'hauwe on 10/03/2018.
 //  Copyright © 2018 Silver Fox. All rights reserved.
+//  Copyright © 2019 Simon Wigzell. All rights reserved.
 //
 
 import UIKit
@@ -115,66 +116,19 @@ class SettingsViewController: UITableViewController {
 		
 	}
 	
-	override func tableView(_ tableView: UITableView, willDisplayFooterView view: UIView, forSection section: Int) {
-
-		let footer = view as? UITableViewHeaderFooterView
-		footer?.textLabel?.textAlignment = .center
-
-		if section == 0 {
-
-			let version = Bundle.main.version
-			let build = Bundle.main.build
-
-			let calendar = Calendar.current
-			let components = (calendar as NSCalendar).components([.day, .month, .year], from: Date())
-
-			if let year = components.year {
-
-				let startYear = 2018
-
-				let copyrightText: String
-
-				if year == startYear {
-
-					copyrightText = "© \(startYear) Silver Fox. Plita v\(version) (build \(build))"
-
-				} else {
-
-					copyrightText = "© \(startYear)-\(year) Silver Fox. Plita v\(version) (build \(build))"
-
-				}
-
-				footer?.textLabel?.text = copyrightText
-
-			}
-
-		}
-
-	}
-
 	override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 
 		tableView.deselectRow(at: indexPath, animated: true)
 
 		switch indexPath.section {
 		case 0:
-			// Section 3: Links
-			let url: String?
 			switch indexPath.row {
 			case 0:
-				// Review on App Store
-				let appId = "1330406995"
-				url = "itms-apps://itunes.apple.com/us/app/textor/id\(appId)?action=write-review"
-			case 1:
 				// GitHub
-				url = "https://github.com/louisdh/textor"
-			case 2:
-				// Twitter
-				url = "https://twitter.com/LouisDhauwe"
-			case 3:
+				let url = URL(string:"https://github.com/smorkin/Plita")
+				UIApplication.shared.open(url!, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: nil)
+			case 1:
 				// Contact Us
-				url = nil
-
 				if MFMailComposeViewController.canSendMail() {
 
 					let mailComposeViewController = configuredMailComposeViewController()
@@ -185,19 +139,14 @@ class SettingsViewController: UITableViewController {
 					self.showSendMailErrorAlert()
 
 				}
-			case 5:
+			case 3:
 				// Font picker
-				url = nil
-				
 				let fontVC = self.storyboard!.instantiateViewController(withIdentifier: "FontViewController")
 				
 				self.show(fontVC, sender: nil)
 			default: return
 			}
 
-			if let urlString = url, let url = URL(string: urlString) {
-				UIApplication.shared.open((url), options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: nil)
-			}
 		default: return
 		}
 
@@ -207,7 +156,7 @@ class SettingsViewController: UITableViewController {
 		let mailComposerVC = MFMailComposeViewController()
 		mailComposerVC.mailComposeDelegate = self
 
-		mailComposerVC.setToRecipients(["support@silverfox.be"])
+		mailComposerVC.setToRecipients(["simon@ozymandias.se"])
 
 		let version = Bundle.main.version
 		let build = Bundle.main.build
@@ -222,7 +171,7 @@ class SettingsViewController: UITableViewController {
 
 
 		----------
-		App: Textor \(version) (build \(build))
+		App: Plita \(version) (build \(build))
 		Device: \(deviceModel) (\(systemName) \(systemVersion))
 
 		"""

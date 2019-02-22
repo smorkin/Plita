@@ -4,6 +4,7 @@
 //
 //  Created by Simon Andersson on 25/03/2018.
 //  Copyright © 2018 Silver Fox. All rights reserved.
+//  Copyright © 2019 Simon Wigzell. All rights reserved.
 //
 
 import UIKit

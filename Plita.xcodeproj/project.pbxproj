@@ -18,16 +18,9 @@
 		BE3BE749205B046E0044356A /* UITableViewCell+Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3BE748205B046E0044356A /* UITableViewCell+Labels.swift */; };
 		BE5CE1132059AA2500158BE9 /* StoryboardFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5CE1122059AA2500158BE9 /* StoryboardFactory.swift */; };
 		BE5CE1152059AB5E00158BE9 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5CE1142059AB5E00158BE9 /* Theme.swift */; };
-		BEC104DF2054481F009F56E7 /* Planets.txt in Resources */ = {isa = PBXBuildFile; fileRef = BEC104DE2054481F009F56E7 /* Planets.txt */; };
-		BEC104E320546728009F56E7 /* Circle.svg in Resources */ = {isa = PBXBuildFile; fileRef = BEC104E220546728009F56E7 /* Circle.svg */; };
-		BEC104E520546730009F56E7 /* Pharaoh.txt in Resources */ = {isa = PBXBuildFile; fileRef = BEC104E420546730009F56E7 /* Pharaoh.txt */; };
-		BEC104E720546899009F56E7 /* Mouse.txt in Resources */ = {isa = PBXBuildFile; fileRef = BEC104E620546899009F56E7 /* Mouse.txt */; };
 		BECE40FA2038DB67004889F0 /* UIViewController+Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECE40F92038DB67004889F0 /* UIViewController+Alerts.swift */; };
 		BECE41042038DD45004889F0 /* UIColor+Named.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECE41032038DD45004889F0 /* UIColor+Named.swift */; };
 		BED3CAB420543936007968FF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED3CAB320543936007968FF /* SettingsViewController.swift */; };
-		BED3CAB72054405A007968FF /* Think different.txt in Resources */ = {isa = PBXBuildFile; fileRef = BED3CAB62054405A007968FF /* Think different.txt */; };
-		BED3CABF20544197007968FF /* Plita_UI_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED3CABE20544197007968FF /* Plita_UI_Tests.swift */; };
-		BED3CAC7205441A1007968FF /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED3CAC6205441A0007968FF /* SnapshotHelper.swift */; };
 		BED6707D201BB1B200D04AD5 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED6707C201BB1B200D04AD5 /* KeyboardObserver.swift */; };
 		BEDDAB152058745300AC9396 /* Notification+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDAB142058745300AC9396 /* Notification+Name.swift */; };
 		BEDDAB1720587C1700AC9396 /* UserDefaultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDAB1620587C1700AC9396 /* UserDefaultsController.swift */; };
@@ -35,16 +28,6 @@
 		BEDDAB1B2058813800AC9396 /* UIDevice+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDAB1A2058813800AC9396 /* UIDevice+Name.swift */; };
 		BEFE545020697B1000FEFE93 /* FontPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFE544F20697B1000FEFE93 /* FontPickerViewController.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		BED3CAC120544197007968FF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BE000C1A1FF9451F00D06B91 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BE000C211FF9451F00D06B91;
-			remoteInfo = Plita;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		BE000C221FF9451F00D06B91 /* Plita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plita.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,18 +44,9 @@
 		BE3BE748205B046E0044356A /* UITableViewCell+Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Labels.swift"; sourceTree = "<group>"; };
 		BE5CE1122059AA2500158BE9 /* StoryboardFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardFactory.swift; sourceTree = "<group>"; };
 		BE5CE1142059AB5E00158BE9 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		BEC104DE2054481F009F56E7 /* Planets.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Planets.txt; sourceTree = "<group>"; };
-		BEC104E220546728009F56E7 /* Circle.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Circle.svg; sourceTree = "<group>"; };
-		BEC104E420546730009F56E7 /* Pharaoh.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pharaoh.txt; sourceTree = "<group>"; };
-		BEC104E620546899009F56E7 /* Mouse.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mouse.txt; sourceTree = "<group>"; };
 		BECE40F92038DB67004889F0 /* UIViewController+Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alerts.swift"; sourceTree = "<group>"; };
 		BECE41032038DD45004889F0 /* UIColor+Named.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Named.swift"; sourceTree = "<group>"; };
 		BED3CAB320543936007968FF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		BED3CAB62054405A007968FF /* Think different.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Think different.txt"; sourceTree = "<group>"; };
-		BED3CABC20544197007968FF /* Plita UI Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plita UI Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BED3CABE20544197007968FF /* Plita_UI_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plita_UI_Tests.swift; sourceTree = "<group>"; };
-		BED3CAC020544197007968FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BED3CAC6205441A0007968FF /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		BED6707C201BB1B200D04AD5 /* KeyboardObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 		BEDDAB142058745300AC9396 /* Notification+Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Name.swift"; sourceTree = "<group>"; };
 		BEDDAB1620587C1700AC9396 /* UserDefaultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsController.swift; sourceTree = "<group>"; };
@@ -89,13 +63,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BED3CAB920544197007968FF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -103,7 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				BE000C241FF9451F00D06B91 /* Plita */,
-				BED3CABD20544197007968FF /* Plita UI Tests */,
 				BE000C231FF9451F00D06B91 /* Products */,
 				FF48B97708CE1B3F9B5381B1 /* Frameworks */,
 			);
@@ -114,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				BE000C221FF9451F00D06B91 /* Plita.app */,
-				BED3CABC20544197007968FF /* Plita UI Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,7 +87,6 @@
 		BE000C241FF9451F00D06B91 /* Plita */ = {
 			isa = PBXGroup;
 			children = (
-				BED3CAB52054403D007968FF /* Screenshot files */,
 				BECE41022038DCF5004889F0 /* Model */,
 				BECE41012038DCED004889F0 /* Controller */,
 				BECE41002038DCE9004889F0 /* Util */,
@@ -173,28 +137,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		BED3CAB52054403D007968FF /* Screenshot files */ = {
-			isa = PBXGroup;
-			children = (
-				BED3CAB62054405A007968FF /* Think different.txt */,
-				BEC104DE2054481F009F56E7 /* Planets.txt */,
-				BEC104E220546728009F56E7 /* Circle.svg */,
-				BEC104E420546730009F56E7 /* Pharaoh.txt */,
-				BEC104E620546899009F56E7 /* Mouse.txt */,
-			);
-			path = "Screenshot files";
-			sourceTree = "<group>";
-		};
-		BED3CABD20544197007968FF /* Plita UI Tests */ = {
-			isa = PBXGroup;
-			children = (
-				BED3CAC6205441A0007968FF /* SnapshotHelper.swift */,
-				BED3CABE20544197007968FF /* Plita_UI_Tests.swift */,
-				BED3CAC020544197007968FF /* Info.plist */,
-			);
-			path = "Plita UI Tests";
-			sourceTree = "<group>";
-		};
 		FF48B97708CE1B3F9B5381B1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,24 +164,6 @@
 			productReference = BE000C221FF9451F00D06B91 /* Plita.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BED3CABB20544197007968FF /* Plita UI Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BED3CAC320544197007968FF /* Build configuration list for PBXNativeTarget "Plita UI Tests" */;
-			buildPhases = (
-				BED3CAB820544197007968FF /* Sources */,
-				BED3CAB920544197007968FF /* Frameworks */,
-				BED3CABA20544197007968FF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BED3CAC220544197007968FF /* PBXTargetDependency */,
-			);
-			name = "Plita UI Tests";
-			productName = "Plita UI Tests";
-			productReference = BED3CABC20544197007968FF /* Plita UI Tests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -260,12 +184,6 @@
 							};
 						};
 					};
-					BED3CABB20544197007968FF = {
-						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 1010;
-						ProvisioningStyle = Automatic;
-						TestTargetID = BE000C211FF9451F00D06B91;
-					};
 				};
 			};
 			buildConfigurationList = BE000C1D1FF9451F00D06B91 /* Build configuration list for PBXProject "Plita" */;
@@ -282,7 +200,6 @@
 			projectRoot = "";
 			targets = (
 				BE000C211FF9451F00D06B91 /* Plita */,
-				BED3CABB20544197007968FF /* Plita UI Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -292,21 +209,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEC104E720546899009F56E7 /* Mouse.txt in Resources */,
 				BE000C341FF9451F00D06B91 /* LaunchScreen.storyboard in Resources */,
-				BEC104DF2054481F009F56E7 /* Planets.txt in Resources */,
-				BEC104E320546728009F56E7 /* Circle.svg in Resources */,
-				BED3CAB72054405A007968FF /* Think different.txt in Resources */,
 				BE000C311FF9451F00D06B91 /* Assets.xcassets in Resources */,
-				BEC104E520546730009F56E7 /* Pharaoh.txt in Resources */,
 				BE000C2F1FF9451F00D06B91 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BED3CABA20544197007968FF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,24 +242,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BED3CAB820544197007968FF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BED3CABF20544197007968FF /* Plita_UI_Tests.swift in Sources */,
-				BED3CAC7205441A1007968FF /* SnapshotHelper.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BED3CAC220544197007968FF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BE000C211FF9451F00D06B91 /* Plita */;
-			targetProxy = BED3CAC120544197007968FF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BE000C2D1FF9451F00D06B91 /* Main.storyboard */ = {
@@ -526,38 +414,6 @@
 			};
 			name = Release;
 		};
-		BED3CAC420544197007968FF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6Q962CA6TS;
-				INFOPLIST_FILE = "Plita UI Tests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "se.ozymandias.plaintexteditor-UI-Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Plita;
-			};
-			name = Debug;
-		};
-		BED3CAC520544197007968FF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6Q962CA6TS;
-				INFOPLIST_FILE = "Plita UI Tests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "se.ozymandias.plaintexteditor-UI-Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Plita;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -575,15 +431,6 @@
 			buildConfigurations = (
 				BE000C391FF9451F00D06B91 /* Debug */,
 				BE000C3A1FF9451F00D06B91 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BED3CAC320544197007968FF /* Build configuration list for PBXNativeTarget "Plita UI Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BED3CAC420544197007968FF /* Debug */,
-				BED3CAC520544197007968FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
