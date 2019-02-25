@@ -21,8 +21,14 @@
 ## About
 Plita is a plain text editor for iOS. It is a fork of <a href="https://github.com/louisdh/textor">Textor</a>, a previous app which has now been withdrawn from the AppStore. Plita is not yet completely fixed for being released to the AppStore (there are still a lot of links etc to the old Textor app, icons to be changed, and more), but as soon as that is fixed I'll publish it.
 
-## Running
+## Compiling
 Open `Plita.xcodeproj`, change the bundle identifier to an identifier linked to your Apple developer account in order to run. Build using the `Plita` scheme. 
+
+## Usage
+The files shown in Plita are the same one as those shown in the iOS Files app, i.e. files provided by any configured cloud drive providers etc. Just open a text file, edit, and save. Note that editing is done in place, i.e. saving will replace the contents of the original file.
+
+## Privacy
+Plita is running 100% on your iOS device. So no data whatsoever is collected from the client.
 
 ## License
 
