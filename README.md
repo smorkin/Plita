@@ -14,7 +14,7 @@ Open `Plita.xcodeproj`, change the bundle identifier to an identifier linked to 
 The files shown in Plita are the same one as those shown in the iOS Files app, i.e. files provided by any configured cloud drive providers. Just open a text file, edit, and save. Note that editing is done in place, i.e. saving will replace the contents of the original file.
 
 ## Privacy
-Plita is running 100% on your iOS device so no data whatsoever is collected from the client.
+Plita is running 100% on your iOS device so no data whatsoever is collected from the client by the app. What the various cloud services does with the files you save is of course up to them.
 
 ## License
 
