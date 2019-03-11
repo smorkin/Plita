@@ -1,5 +1,5 @@
 <p align="center">
-<img src="readme-resources/hero.png" alt="Plita for iOS">
+<img src="readme-resources/plita-1024.png" alt="Plita for iOS">
 </p>
 
 <h1 align="center">Plita</h1>
