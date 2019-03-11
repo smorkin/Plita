@@ -5,7 +5,7 @@
 <h1 align="center">Plita</h1>
 
 ## About
-Plita is a plain text editor for iOS. It is a fork of <a href="https://github.com/louisdh/textor">Textor</a>, a previous app which has now been withdrawn from the AppStore. While adding some new functionality to a couple of other of my apps (<a href="https://heartfeedrss.wordpress.com">Heartfeed</a>, an RSS reader, and <a href="https://csvtouch.wordpress.com">CSV Touch</a>, a CSV visualiser) I needed a simple straightforward text editor on iOS which supported cloud drives such as iCloud, Dropbox, etc, I decided to maintain the app and put it up on the store. 
+Plita is a plain text editor for iOS. It is a fork of <em><a href="https://github.com/louisdh/textor">Textor</a></em>, a previous app which has now been withdrawn from the AppStore. While adding some new functionality to a couple of other of my apps (<em><a href="https://heartfeedrss.wordpress.com">Heartfeed</a></em>, an RSS reader, and <em><a href="https://csvtouch.wordpress.com">CSV Touch</a></em>, a CSV visualiser) I needed a simple straightforward text editor on iOS which supported cloud drives such as iCloud, Dropbox, etc. Hence, I decided to fork <em>Textor</em> and put it up on the store.
 
 ## Compiling
 Open `Plita.xcodeproj`, change the bundle identifier to an identifier linked to your Apple developer account in order to run. Build using the `Plita` scheme. 
