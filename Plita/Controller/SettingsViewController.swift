@@ -156,12 +156,12 @@ class SettingsViewController: UITableViewController {
 		let mailComposerVC = MFMailComposeViewController()
 		mailComposerVC.mailComposeDelegate = self
 
-		mailComposerVC.setToRecipients(["simon@ozymandias.se"])
+		mailComposerVC.setToRecipients(["plita@ozymandias.se"])
 
 		let version = Bundle.main.version
 		let build = Bundle.main.build
 
-		mailComposerVC.setSubject("Textor \(version)")
+		mailComposerVC.setSubject("Plita \(version)")
 
 		let deviceModel = UIDevice.current.modelName
 		let systemName = UIDevice.current.systemName
